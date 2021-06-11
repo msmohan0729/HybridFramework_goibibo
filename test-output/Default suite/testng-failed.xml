@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.goibibo.qa.testcases.Scenario4_SearchAHotelInOotyAndApplyFilter">
+      <class name="com.goibibo.qa.testcases.Scenario2_BookAHotelForOneAdult">
         <methods>
           <include name="testCases"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.goibibo.qa.testcases.Scenario4_SearchAHotelInOotyAndApplyFilter -->
+      </class> <!-- com.goibibo.qa.testcases.Scenario2_BookAHotelForOneAdult -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

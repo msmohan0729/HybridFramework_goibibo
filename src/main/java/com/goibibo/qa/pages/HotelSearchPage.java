@@ -73,8 +73,9 @@ public class HotelSearchPage extends TestBase {
 
 	public void displayHotelsName() {
 		List<WebElement> elements = driver.findElements(By.xpath("//h4[@itemprop = 'name']"));
-		for (WebElement ele : elements)
+		for (WebElement ele : elements) 
 			System.out.println(ele.getText());
+		System.out.println("TotalCount Hotel Count :"+elements.size());
 	}
 
 	public HotelPage selectHotel(String hotelName) {

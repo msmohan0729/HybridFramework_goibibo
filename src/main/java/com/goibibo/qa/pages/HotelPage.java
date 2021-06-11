@@ -142,4 +142,8 @@ public class HotelPage extends TestBase {
 		System.out.println("Question & Answers:");
 		TestUtil.printWebElements("//div[@class='UserAnswerstyles__ContentWrapperDiv-sc-1c5jue4-1 pRwGs']");
 	}
+	
+	public String getPageTitle() {
+		return driver.getTitle();
+	}
 }

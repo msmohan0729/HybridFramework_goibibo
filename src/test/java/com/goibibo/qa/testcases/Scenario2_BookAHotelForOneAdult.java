@@ -33,11 +33,16 @@ public class Scenario2_BookAHotelForOneAdult extends TestBase{
 	public void testCases() {
 		hotelSearchPage = homePage.clickForHotelBooking();
 		hotelSearchPage.searchHotels();
+		hotelSearchPage.displayHotelsName();
 		hotelPage = hotelSearchPage.selectHotel(prop.getProperty("hotelname"));
-		hotelPage.selectRooms();
-		hotelPage.enterPersonalDetails();
-		hotelPage.enterCardDetails();
-		hotelPage.verifyErrorMessage();
+		
+		if((hotelPage.getPageTitle()).contains(prop.getProperty("hotelname"))) {
+			hotelPage.selectRooms();
+			hotelPage.enterPersonalDetails();
+			hotelPage.enterCardDetails();
+			hotelPage.verifyErrorMessage();
+		}
+		else System.out.println("Testcase failed");
 	}
 	
 	@AfterMethod

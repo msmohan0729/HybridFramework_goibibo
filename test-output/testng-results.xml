@@ -1,81 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-01T17:21:00 IST" name="Suite" finished-at="2021-06-01T17:24:41 IST" duration-ms="220859">
+  <suite started-at="2021-06-01T19:30:44 IST" name="Default suite" finished-at="2021-06-01T19:33:31 IST" duration-ms="166743">
     <groups>
     </groups>
-    <test started-at="2021-06-01T17:21:00 IST" name="Test" finished-at="2021-06-01T17:24:41 IST" duration-ms="220859">
-      <class name="com.goibibo.qa.testcases.Scenario1_SearchAHotelForOneAdult">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.goibibo.qa.testcases.Scenario1_SearchAHotelForOneAdult@9225652]" started-at="2021-06-01T17:21:00 IST" name="setup" finished-at="2021-06-01T17:21:09 IST" duration-ms="9119" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testCases()[pri:0, instance:com.goibibo.qa.testcases.Scenario1_SearchAHotelForOneAdult@9225652]" started-at="2021-06-01T17:21:09 IST" name="testCases" finished-at="2021-06-01T17:21:14 IST" duration-ms="4932" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCases -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.goibibo.qa.testcases.Scenario1_SearchAHotelForOneAdult@9225652]" started-at="2021-06-01T17:21:14 IST" name="tearDown" finished-at="2021-06-01T17:21:19 IST" duration-ms="4130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.goibibo.qa.testcases.Scenario1_SearchAHotelForOneAdult -->
-      <class name="com.goibibo.qa.testcases.Scenario4_SearchAHotelInOotyAndApplyFilter">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.goibibo.qa.testcases.Scenario4_SearchAHotelInOotyAndApplyFilter@7193666c]" started-at="2021-06-01T17:24:13 IST" name="setup" finished-at="2021-06-01T17:24:22 IST" duration-ms="8944" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testCases()[pri:0, instance:com.goibibo.qa.testcases.Scenario4_SearchAHotelInOotyAndApplyFilter@7193666c]" started-at="2021-06-01T17:24:22 IST" name="testCases" finished-at="2021-06-01T17:24:37 IST" duration-ms="14897" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCases -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.goibibo.qa.testcases.Scenario4_SearchAHotelInOotyAndApplyFilter@7193666c]" started-at="2021-06-01T17:24:37 IST" name="tearDown" finished-at="2021-06-01T17:24:41 IST" duration-ms="4171" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.goibibo.qa.testcases.Scenario4_SearchAHotelInOotyAndApplyFilter -->
-      <class name="com.goibibo.qa.testcases.Scenario3_SearchAHotelAndSelectFirstHotel">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.goibibo.qa.testcases.Scenario3_SearchAHotelAndSelectFirstHotel@5119fb47]" started-at="2021-06-01T17:22:23 IST" name="setup" finished-at="2021-06-01T17:22:32 IST" duration-ms="8945" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testCases()[pri:0, instance:com.goibibo.qa.testcases.Scenario3_SearchAHotelAndSelectFirstHotel@5119fb47]" started-at="2021-06-01T17:22:32 IST" name="testCases" finished-at="2021-06-01T17:24:13 IST" duration-ms="100714" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCases -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.goibibo.qa.testcases.Scenario3_SearchAHotelAndSelectFirstHotel@5119fb47]" started-at="2021-06-01T17:24:13 IST" name="tearDown" finished-at="2021-06-01T17:24:13 IST" duration-ms="169" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.goibibo.qa.testcases.Scenario3_SearchAHotelAndSelectFirstHotel -->
+    <test started-at="2021-06-01T19:30:44 IST" name="Default test" finished-at="2021-06-01T19:33:31 IST" duration-ms="166743">
       <class name="com.goibibo.qa.testcases.Scenario2_BookAHotelForOneAdult">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.goibibo.qa.testcases.Scenario2_BookAHotelForOneAdult@6a192cfe]" started-at="2021-06-01T17:21:19 IST" name="setup" finished-at="2021-06-01T17:21:28 IST" duration-ms="9049" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.goibibo.qa.testcases.Scenario2_BookAHotelForOneAdult@a9cd3b1]" started-at="2021-06-01T19:30:44 IST" name="setup" finished-at="2021-06-01T19:31:16 IST" duration-ms="31846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testCases()[pri:0, instance:com.goibibo.qa.testcases.Scenario2_BookAHotelForOneAdult@6a192cfe]" started-at="2021-06-01T17:21:28 IST" name="testCases" finished-at="2021-06-01T17:22:19 IST" duration-ms="51494" status="FAIL">
+        <test-method signature="testCases()[pri:0, instance:com.goibibo.qa.testcases.Scenario2_BookAHotelForOneAdult@a9cd3b1]" started-at="2021-06-01T19:31:16 IST" name="testCases" finished-at="2021-06-01T19:33:31 IST" duration-ms="134565" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@class= 'PersonalProfile__NameEnterInput-sc-1r9ak8b-6 hEgRgJ'])[1]"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@name = 'cardnumber'])[1]"}
   (Session info: chrome=90.0.4430.212)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MOHAN', ip: '192.168.43.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\msmoh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6c0c99667962ed553aeb0d0e73e91f4c
-*** Element info: {Using=xpath, value=(//input[@class= 'PersonalProfile__NameEnterInput-sc-1r9ak8b-6 hEgRgJ'])[1]}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\msmoh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54100}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 144fbc8e3fa6543edc88fbc8565d9db3
+*** Element info: {Using=xpath, value=(//input[@name = 'cardnumber'])[1]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@class= 'PersonalProfile__NameEnterInput-sc-1r9ak8b-6 hEgRgJ'])[1]"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@name = 'cardnumber'])[1]"}
   (Session info: chrome=90.0.4430.212)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MOHAN', ip: '192.168.43.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\msmoh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6c0c99667962ed553aeb0d0e73e91f4c
-*** Element info: {Using=xpath, value=(//input[@class= 'PersonalProfile__NameEnterInput-sc-1r9ak8b-6 hEgRgJ'])[1]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\msmoh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54100}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 144fbc8e3fa6543edc88fbc8565d9db3
+*** Element info: {Using=xpath, value=(//input[@name = 'cardnumber'])[1]}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -94,8 +52,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
-at com.goibibo.qa.pages.HotelPage.enterPersonalDetails(HotelPage.java:92)
-at com.goibibo.qa.testcases.Scenario2_BookAHotelForOneAdult.testCases(Scenario2_BookAHotelForOneAdult.java:38)
+at com.goibibo.qa.pages.HotelPage.enterCardDetails(HotelPage.java:100)
+at com.goibibo.qa.testcases.Scenario2_BookAHotelForOneAdult.testCases(Scenario2_BookAHotelForOneAdult.java:42)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -130,11 +88,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCases -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.goibibo.qa.testcases.Scenario2_BookAHotelForOneAdult@6a192cfe]" started-at="2021-06-01T17:22:19 IST" name="tearDown" finished-at="2021-06-01T17:22:23 IST" duration-ms="4257" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.goibibo.qa.testcases.Scenario2_BookAHotelForOneAdult@a9cd3b1]" started-at="2021-06-01T19:33:31 IST" name="tearDown" finished-at="2021-06-01T19:33:31 IST" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.goibibo.qa.testcases.Scenario2_BookAHotelForOneAdult -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
